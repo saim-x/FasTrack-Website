@@ -193,6 +193,7 @@ h6 {
     .developer-info {
         align-items: center;
         text-align: center;
+        margin-top: 50px;
     }
 
     .developer-image {
