@@ -16,7 +16,8 @@ body {
     height: 100vh;
     color: #333;
     padding: 20px;
-    overflow: hidden;
+    overflow-x: hidden; 
+    overflow-y: auto; 
 }
 
 h1,
