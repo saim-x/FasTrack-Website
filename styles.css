@@ -14,17 +14,11 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    /* Ensure full viewport height */
     color: #333;
     overflow-x: hidden;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -58,7 +52,6 @@ h6 {
     color: #ff6a00;
     margin-bottom: 20px;
     animation: pulse 3s infinite alternate;
-
 }
 
 @keyframes pulse {
@@ -163,7 +156,7 @@ h6 {
 
 .social-button img {
     width: 40px;
-    height: auto;
+    height: 40px;
     border-radius: 50%;
     transition: transform 0.3s ease;
 }
@@ -188,12 +181,10 @@ h6 {
 
     .left-section h1 {
         font-size: 2.5em;
-
     }
 
     .left-section p {
         font-size: 1em;
-
         text-align: left;
     }
 
