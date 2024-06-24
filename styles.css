@@ -13,19 +13,12 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh; /* Ensure full viewport height */
     color: #333;
-    padding: 20px;
-    overflow-x: hidden; 
-    overflow-y: auto; 
+    overflow-x: hidden;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -51,6 +44,7 @@ h6 {
 .left-section {
     flex: 1;
     padding: 20px;
+    text-align: center; /* Center align content on smaller screens */
 }
 
 .left-section h1 {
@@ -65,7 +59,6 @@ h6 {
         transform: scale(1) translate(-1px, 1px);
         color: #ff6a00;
     }
-
     100% {
         transform: scale(1.02) translate(2px, -2px);
         color: #ff4757;
@@ -107,21 +100,20 @@ h6 {
 #downloadButton {
     background-color: #ff4e00;
     color: white;
-    border: 2px solid #ffaa79; 
+    border: 2px solid #ffaa79;
     padding: 15px 40px;
     font-family: 'Inter', sans-serif;
     font-size: 1.2em;
     border-radius: 30px;
     cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.3s ease, border-color 0.3s ease; /* Include border-color in the transition */
+    transition: background-color 0.3s ease, transform 0.3s ease, border-color 0.3s ease;
 }
 
 #downloadButton:hover {
     background-color: #e84118;
-    border-color: #e84118; 
+    border-color: #e84118;
     transform: translateY(-5px);
 }
-
 
 .developer-info {
     display: flex;
@@ -172,17 +164,17 @@ h6 {
     transform: scale(1.2);
 }
 
-
 @media screen and (max-width: 768px) {
     .container {
         flex-direction: column;
-        align-items: stretch;
+        align-items: center;
+        padding: 20px; 
+        margin-top: 4rem;
     }
 
     .left-section, .right-section {
         width: 100%;
         padding: 10px;
-        text-align: center;
     }
 
     .right-section img {
@@ -193,15 +185,15 @@ h6 {
     .developer-info {
         align-items: center;
         text-align: center;
-        margin-top: 50px;
+        margin-top: 30px; 
     }
 
     .developer-image {
         width: 80px;
         height: 80px;
     }
-    .container {
-        margin-top: 5rem; 
+
+    .download-section {
+        margin-top: 30px; 
     }
 }
-
