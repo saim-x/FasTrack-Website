@@ -5,10 +5,10 @@
 
 function changeButtonText() {
     window.open('app.apk')
-    var button = document.getElementById('downloadButton');
-    button.innerText = 'Download horhi hai sabar rkhein';
+    // var button = document.getElementById('downloadButton');
+    // button.innerText = 'Download horhi hai sabar rkhein';
 
-    setTimeout(function () {
-        button.innerText = 'Download APK (25M)';
-    }, 5000); 
+    // setTimeout(function () {
+    //     button.innerText = 'Download APK (25M)';
+    // }, 5000); 
 }
