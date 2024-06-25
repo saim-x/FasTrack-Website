@@ -25,7 +25,7 @@ Developed by Muhammad Saim.
 
 Click the button below to download the APK (25MB):
 
-<img src="media/download_buttonn.png" alt="Download APK" width="50">
+[<img src="media/download_buttonn.png" alt="Download APK" width="50">](app.apk)
 
 ## Technologies Used in App
 
